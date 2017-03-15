@@ -5,7 +5,7 @@ function change(b) {
 
 var a = 1;
 change(a);
-console.log(a);
+console.log(a);		// 1
 
 // pass by reference
 function changeObj(d) {
@@ -16,4 +16,4 @@ function changeObj(d) {
 var c = {};
 c.prop1 = {};
 changeObj(c);
-console.log(c);
+console.log(c);		// { prop1: [Function], prop2: {} }
